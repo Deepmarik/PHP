@@ -5,23 +5,16 @@
 	//Задание 1
 
 	$arr = [1, 2, 3, 4, 5];
-	var_dump ($arr);
+	$key1 = 1;
+	$key2 = 2;
+	echo $arr[$key1] + $arr[$key2];
 	echo PHP_EOL;
 
 	//Задание 2
 
-	$arr = [1, 2, 3];
-	$arr[] = 4;
-	$arr[] = 5;
-	var_dump ($arr);
+	$arr = ['a' => 1, 'b' => 2, 'c' => 3];
+	$key1 = 'b';
+	echo $arr[$key1];
 	echo PHP_EOL;
-	
-	//Задание 3
-
-	$arr = [];
-	$arr['year'] = '2022';
-	$arr['month'] = 'август';
-	$arr['day'] = 'суббота';
-	var_dump ($arr);
-	echo PHP_EOL;
+		
 ?>
