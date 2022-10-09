@@ -1,63 +1,67 @@
 <?php
 
-//⊗ppPmCdIE
+//⊗ppPmCdCS
 //урок 31 
  
 //Задание 1
 
-$test = 12;
-if ($test > 10) {
+$num = 12;
+if ($num > 0 && $num < 5) {
     echo '+';
 } 	else { echo '-';}
 echo PHP_EOL;
 
 //Задание 2
 
-$test = 19;
-if ($test < 10) {
+$num = 12;
+if ($num >= 10 && $num <= 20) {
     echo '+';
 } 	else { echo '-';}
 echo PHP_EOL;
 
 //Задание 3
 
-$test = 10;
-if ($test <= 10) {
-    echo '+';
-}	else { echo '-';}
+$num1 = 1;
+$num2 = 3;
+	
+if ($num1 <= 1 and $num2 >= 3) {
+		echo '+';
+	} else {
+		echo '-';
+	}
 echo PHP_EOL;
     
-//Задание 4
+//Задание 12
 
-$test = 10;
-if ($test >= 10) {
-    echo '+';
-}	else { echo '-';}
+$num = 3;
+		
+if (($num > 5 and $num < 10) or $num == 20) {
+		echo '+';
+	} else {
+		echo '-';
+	}
 echo PHP_EOL;
 
-//Задание 5
+//Задание 13
 
-$test = 10;
-if ($test == 10) {
-    echo '+';
-}	else { echo '-';}
+$num = 3;
+		
+if ($num > 5 or ($num > 0 and $num < 3)) {
+	    echo '+';
+	} else {
+	    echo '-';
+	}
 echo PHP_EOL;
 
-//Задание 6
+//Задание 14
 
-$test = 10;
-if ($test != 10) {
-    echo '+';
-}	else { echo '-';}
+$num = 3;
+		
+if (($num == 9 or ($num > 10 and $num < 20)) or ($num > 20 and $num < 30)) {
+		echo '+';
+	} else {
+		echo '-';
+	}
 echo PHP_EOL;
 
-//Задание 7
-$test1 = 1;
-$test2 = 2;
-
-if ($test2 > $test1) {
-    echo 'test2 больше'; // сработает это, так как $test2 больше $test1
-} else {
-    echo 'test1 больше';
-}
 ?>
